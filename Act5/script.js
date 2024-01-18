@@ -1,7 +1,7 @@
 let num1,num2;
 function calcular(){
-    num1 =  document.getElementById("num1").value;
-    num2 =  document.getElementById("num2").value;
+    num1 =  parseInt(document.getElementById("num1").value);
+    num2 =  parseInt(document.getElementById("num2").value);
     if(!isNaN(num1) && !isNaN(num2)){
         try{
         document.getElementById("firstVal").innerHTML =`Primer valor: ${num1}`;
