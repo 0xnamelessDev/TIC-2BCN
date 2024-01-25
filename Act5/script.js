@@ -1,5 +1,5 @@
-let num1,num2;
 function calcular(){
+    let num1,num2;
     num1 =  parseInt(document.getElementById("num1").value);
     num2 =  parseInt(document.getElementById("num2").value);
     if(!isNaN(num1) && !isNaN(num2)){
