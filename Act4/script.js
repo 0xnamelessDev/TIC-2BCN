@@ -3,8 +3,7 @@ function calcular(){
     let num1,num2;
     num1 =  parseInt(prompt("introduzca el primer valor"));
     num2 =  parseInt(prompt("introduzca el segundo valor"));
-    if(!isNaN(num1) && !isNaN(num2)){
-        try{
+    try{
         alert(`
         Primer valor: ${num1}
         Segundo valor: ${num2}
@@ -13,12 +12,9 @@ function calcular(){
         División: ${num1/num2}
         Resto: ${num1%num2}
         `);
-        }
-        catch{
-            alert("Error!!!")
-        }
     }
-    else{
-        alert("Introduzca valores numéricos")
+    catch{
+        alert("Error!!!")
     }
 }
+
