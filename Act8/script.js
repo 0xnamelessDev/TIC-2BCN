@@ -35,5 +35,5 @@ const resultado = (usarIf) => {
     else{
         document.getElementById("result").innerHTML = "Introduzca una hora válida";
     }
-}
+};
 

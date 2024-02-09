@@ -7,7 +7,7 @@ const factorialFor = () => {
         fact *= i;
     }
     document.getElementById("result").innerHTML = "Resultado: " + fact;
-}
+};
 
 const factorialWhile = () => {
     let fact = 1;
@@ -18,7 +18,7 @@ const factorialWhile = () => {
         i++;
     }
     document.getElementById("result").innerHTML = "Resultado: " + fact;
-}
+};
 
 
 function factorialRecursivo(){
